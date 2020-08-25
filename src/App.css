@@ -8,8 +8,36 @@
   flex-direction: row;
 }
 .Section1A{
-  width:50%;
+  width:70%;
+  margin: 0;
 }
 .Section1B{
-  width:50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width:30%;
+}
+.Section1BImage>img{
+  width:150px;
+  height:100px;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.Section1BImage{
+  overflow: auto;
+}
+.Section1BQuote{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.Quote{
+  flex:1;
+}
+.Section2{
+  display: flex;
+  justify-content: space-around;
+}
+.Section2>img{
+  width:32%;
+  height:200px;
 }
